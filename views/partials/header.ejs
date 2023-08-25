@@ -4,17 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Changez-d'attitude</title>
+    <link rel="stylesheet" href="/css/index.css">
 </head>
 <body>
     <header class="header">
+        <div class="burger">
+            <img class="burger-logo" src="/images/burger.svg" alt="">
+        </div>
+        <div class="header-container">
+            <img class="header-logo" src="/images/Logo.svg" alt="logo changer d'attitude">
+            <span class="header-span"> Changer d'attitude</span>
+        </div>
         <nav class="nav-header">
             <ul class="nav-ul">
                 <li class="nav-li"><a href="/" class="nav-link">Acceuil</a></li>
                 <li class="nav-li"><a href="/publications" class="nav-link">Publications</a></li>
                 <li class="nav-li"><a href="/subscription" class="nav-link">Abonnements</a></li>
-                <li class="nav-li"><a href="/signin" class="nav-link">connexion</a></li>
+                <li class="nav-li"><a href="/signin" class="nav-link">Connexion</a></li>
             </ul>
         </nav>
 
-        <a href="/signup">Créer un compte</a>
+        <a class="button-cta none" href="/signup">Créer un compte</a>
+
+        <div class="burger-menu">
+
+            <div class="burger-header-container">
+                <div class="burger-flex-header">
+                    <img class="burger-header-logo" src="/images/Logo.svg" alt="logo changer d'attitude">
+                    <span class="burger-header-span"> Changer d'attitude</span>
+                </div>
+                <span class="burger-close-span">X</span>
+            </div>
+
+            <nav class="burger-nav-header">
+                <ul class="burger-nav-ul">
+                    <li class="burger-nav-li"><a href="/" class="burger-nav-link">Acceuil</a></li>
+                    <li class="burger-nav-li"><a href="/publications" class="burger-nav-link">Publications</a></li>
+                    <li class="burger-nav-li"><a href="/subscription" class="burger-nav-link">Abonnements</a></li>
+                    <li class="burger-nav-li"><a href="/signin" class="burger-nav-link">Connexion</a></li>
+                </ul>
+                <a class="button-cta show" href="/signup">Créer un compte</a>
+            </nav>
+
+        </div>
     </header>
